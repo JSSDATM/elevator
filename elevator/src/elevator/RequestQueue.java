@@ -1,5 +1,4 @@
 package elevator;
-
-public class RequestQueue {
-
+import java.util.PriorityQueue;
+public class RequestQueue extends PriorityQueue<Request> {
 }
